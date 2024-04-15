@@ -1,0 +1,7 @@
+
+
+# Package     Version
+# ----------- -------
+deepdiff=7.0.1
+fastavro=1.9.4
+ordered-set=4.1.0
