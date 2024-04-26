@@ -37,10 +37,10 @@ def readFiles(file_name_1, file_name_2, abs_loc : bool):
 
 if __name__ == "__main__":
     # accept locations of two json files to compare as program input args
-    file_name_1 = "widget_1.json"
-    file_name_2 = "widget_2.json"
-    readFiles(file_name_1, file_name_2, False)
+    #file_name_1 = "widget_1.json"
+    #file_name_2 = "widget_2.json"
+    #readFiles(file_name_1, file_name_2, False)
 
-    #file_name_1 = input("Enter first json file loc: ")
-    #file_name_2 = input("Enter second json file loc: ")
-    #readFiles(file_name_1, file_name_2, True)
+    file_name_1 = input("Enter first json file loc: ")
+    file_name_2 = input("Enter second json file loc: ")
+    readFiles(file_name_1, file_name_2, True)
