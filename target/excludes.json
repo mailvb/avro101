@@ -1,4 +1,8 @@
 [
-    "root['widget']['onLoad']", 
-    "root['widget']['creator']"
+    "root['timestamp']", 
+    "root['version']",
+    "root['correlationId']",
+    "root['response']['env']",
+    "root['response']['systems']",
+    "root['response']['version']"
 ]
