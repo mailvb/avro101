@@ -29,7 +29,7 @@ if __name__ == "__main__":
     folder_dict_2 = list_files(folder_name_2)
     for key in sorted(folder_dict_1, key=lambda x: int(x)):
         file_name_1 = folder_dict_1[key]
-        file_name_2 = folder_dict_2[key]
+        file_name_2 = folder_dict_2.get(key, "_not_found_")
         print("============================ START ============================")
         if file_name_1 != file_name_2:
             print(red_color_code )
